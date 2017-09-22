@@ -9,5 +9,5 @@ puts "Welcome to Tic Tac Toe!"
 puts "Choose postion 1(upper left) - 9(bottom right)"
 input = gets.strip
 index = input_to_index(input)
-move(board,index,value)
+move(board,index)
 display_board(board)
