@@ -15,5 +15,6 @@ def input_to_index(input)
   index = input.to_i - 1
   if (  index.between?(1-9) )
     return index
-  else return -1
+  else 
+    return -1
 end
